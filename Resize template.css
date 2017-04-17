@@ -1,0 +1,148 @@
+#banner{width: 100%;
+        height:auto;
+        border: 2px outset ;
+        display:block;}
+.widthControl{
+        min-width:600px;
+        }
+.content{
+         width:80%;
+         padding: 2px 20px 2px 20px;
+         position:relative;
+         margin-left: auto;
+         margin-right: auto;
+         }
+.leftColText{position:relative;
+        padding: 10px 20px 10px 20px;
+        font-family: Time;
+        text-align:left;
+        }
+
+.form{
+            position:relative;
+            padding:10px 50px 10px 50px;
+            text-align:left;
+            }
+.transparentBG{position:absolute;
+                background-color: #ffffff;
+                opacity:0.2;
+                border-radius: 7px;
+                border: 2px outset black;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                z-index:-1;
+                }
+.transparentBG2{position:absolute;
+                background-color: #ffffff;
+                opacity:0.5;
+                border-radius: 7px;
+                border: 2px outset black;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                z-index:-1;
+                }
+#wrapper2column{padding: 3px 0px 0px 0px;
+                width: 80%;
+                margin-left:auto;
+                margin-right:auto;
+                }
+#wrapper{padding: 3px 0px 0px 0px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#submitButton {
+                position:relative;
+                border: 2px outset #CCCCCC;
+                height: 30px;
+                width:  85%;
+                padding:3px 15px;
+                color:#FFFFFF;
+                background-color:#4280EF;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2em;
+                font-weight: bold;
+                text-align:center;
+                text-decoration:none;
+                }
+#submitButton:hover{
+               box-shadow: inset 0 1em 1em rgba(255, 255, 255, 0.2),
+               inset 0 1.5em 1.5em rgba(0, 0, 0, 0.3);
+               }
+#submitButton:focus  {
+                        background-color: black;
+                        color:#66CCFF;
+                        border: 3px outset #cccccc;
+                     }
+#submitButton:active{color:#DDA0DD;
+                     border:2px inset #000000;}
+.formControl{
+             border-radius:4px;
+             border: 1px solid rgb(204, 204, 204);
+             transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+             }
+.formControl:focus{
+            border: 1px solid blue;
+            }
+.formControl:hover{
+               box-shadow: inset 0 1em 1em rgba(255, 255, 255, 0.2),
+               inset 0 1.2em 1.2em rgba(212, 224, 224, 0.3);
+               }
+.formPhone{border-radius:4px;
+           border:1px solid rgb(204,204,204);
+           transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+           max-length: 3
+           size:3;
+           }
+.formPhone:focus{
+            border: 1px solid blue;
+            }
+.formPhone:hover{
+               box-shadow: inset 0 1em 1em rgba(255, 255, 255, 0.2),
+               inset 0 1.2em 1.2em rgba(212, 224, 224, 0.3);
+               }
+.formPhone2{border-radius:4px;
+           border:1px solid rgb(204,204,204);
+           transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+           max-length: 4;
+           size:4;
+           }
+.formPhone2:focus{
+            border: 1px solid blue;
+            }
+.formPhone2:hover{
+               box-shadow: inset 0 1em 1em rgba(255, 255, 255, 0.2),
+               inset 0 1.2em 1.2em rgba(212, 224, 224, 0.3);
+               }
+.links {width:90%;
+        color:white;
+        border: 2px outset white;
+        margin:auto;
+        opacity:.5;
+        background-color:#4280EF;
+        	color: #FFF;
+
+        }
+.links a:link{
+background-color:#4280EF;
+        	color: #FFF;
+
+                text-decoration: none;}
+.links a:visited {
+            background-color:#4280EF;
+        	color: #FFF;
+        	text-decoration: none;
+        }
+.links a:hover {
+        	color: #000;
+            background-color:#4280EF;
+        	text-decoration: underline;
+        }
+.links a:active {
+        	color: #000;
+        	text-decoration: none;
+        }
